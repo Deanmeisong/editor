@@ -92,7 +92,7 @@ gem "addressable", ">= 2.8.0"
 
 gem "simplecov", require: false, group: :test
 
-gem "standard", group: %i[development test]
+gem "standard", ">= 1.37.0", group: %i[development test]
 gem "standardrb", group: %i[development test]
 
 gem "csv"
